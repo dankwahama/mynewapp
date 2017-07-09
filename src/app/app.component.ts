@@ -27,4 +27,8 @@ export class AppComponent {
       console.log('data:',obj);
   }
 
+  onSubmit = function(user){
+      console.log(user);
+  }
+
 }
